@@ -1,0 +1,15 @@
+.booksidebar {
+    width: 320px; /* Sidebar genişliği */
+    height: 100vh; /* Tam ekran yüksekliği */
+    background-color: #FFFFFF; /* Sidebar arka plan rengi */
+    color: rgb(0, 0, 0); /* Yazı rengi */
+    padding-top: 20px; /* Üstten boşluk */
+    position: fixed; /* Ekranın sol tarafına sabitleme */
+    top: 0;
+    left: 0;
+    display: flex;
+    flex-direction: column; /* Dikey düzen */
+    align-items: center;
+    gap: 20px; /* gap değerinin doğru kullanımı */
+    box-shadow: 0px 0px 4px  rgba(0, 0, 0, 0.25);
+}
